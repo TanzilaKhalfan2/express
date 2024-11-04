@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  express:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-11-04T12:17:51.064673093+01:00"
+    description: A Helm chart for a demo microservice
+    digest: e9bccb03d87bd1dde8260ca8925728089e0015ee8be801af02715f3428cbc9e3
+    name: express
+    urls:
+    - https://tanzilakhalfan2.github.io/express/charts/express-1.0.0.tgz
+    version: 1.0.0
+generated: "2024-11-04T12:17:51.064393425+01:00"

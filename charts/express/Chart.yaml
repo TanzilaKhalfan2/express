@@ -1,0 +1,5 @@
+apiVersion: v2
+name: express
+description: A Helm chart for a demo microservice
+version: 1.0.0
+appVersion: "1.0.0"
