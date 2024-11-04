@@ -3,12 +3,12 @@ entries:
   express:
   - apiVersion: v2
     appVersion: v2
-    created: "2024-11-04T16:53:44.375024326+01:00"
+    created: "2024-11-04T17:03:36.195578904+01:00"
     description: A Helm chart for Kubernetes
-    digest: 5fb4ade706d15ddf532277d4f368070d7354d656cdd8260371763840ef3ef350
+    digest: a7196a2ef29289f25fa4a9a7c016672995981bc2ae650fc6202c5f599e438149
     name: express
     type: application
     urls:
     - https://tanzilakhalfan2.github.io/express/charts/express-v2.tgz
     version: v2
-generated: "2024-11-04T16:53:44.374713416+01:00"
+generated: "2024-11-04T17:03:36.195104352+01:00"
