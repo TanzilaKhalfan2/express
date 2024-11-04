@@ -29,6 +29,9 @@ az aks get-credentials --resource-group demo-aks-rg --name demo-aks --overwrite-
 # Installing Helmchart 
 helm upgrade --install <release-name> <repo-name>/<chart-name>
 helm upgrade --install demo-service svcCharts/demo-microservice 
+helm upgrade --install expressapp expressCharts/express
+
+Kubectl get deployments -n default
 
 
 Read this artical:
@@ -44,5 +47,7 @@ docker push tanzilakhalfan/demo-svc:v1
 
 # Linux
  rm -rf ./demo-service/
+
+
 
 

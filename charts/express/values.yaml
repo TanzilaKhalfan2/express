@@ -1,10 +1,16 @@
-replicaCount: 2
+replicaCount: 1
 
 image:
   repository: tanzilakhalfan/express
-  tag: "v1"
   pullPolicy: IfNotPresent
+  tag: "v2"
 
 service:
   type: ClusterIP
   port: 80
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}
